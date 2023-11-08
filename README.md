@@ -9,14 +9,14 @@ You can follow the instructions on this page https://docs.permit.io/integrations
 To run this code run the following commands:
 
 ```bash
-//enter to auth0 folder
+# Enter to auth0 folder
 cd auth0
-//Make sure you have Python installed, if you don't have Python install it from https://www.python.org/downloads/
-//Install the requirements by running this command
+# Make sure you have Python installed, if you don't have Python install it from https://www.python.org/downloads/
+# Install the requirements by running this command
 pip install -r requirements.txt
-// add those following env variables AUTH0_DOMAIN AUTH0_MGMT_ACCESS_TOKEN PERMIT_SDK_TOKEN
+# Add those following env variables AUTH0_DOMAIN AUTH0_MGMT_ACCESS_TOKEN PERMIT_SDK_TOKEN
 
 
-// run the script with the csv_file param (you can also add the tenant key that you want those users to be part of with: --tenant_key <permit_tenant_key>
+# Run the script with the csv_file param (you can also add the tenant key that you want those users to be part of with: --tenant_key <permit_tenant_key>
 python auth0_sync_users_with_permit.py --csv_file <path_to_the_auth0_exported_users_file>
 ```
