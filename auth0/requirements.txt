@@ -1,3 +1,4 @@
 auth0-python==3.24.1
 permit
 click
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
