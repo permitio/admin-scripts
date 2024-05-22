@@ -1,3 +1,4 @@
 auth0-python==3.24.1
 permit
 click
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
